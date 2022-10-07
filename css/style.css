@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Expressway;
+  src: url(../fonts/Expressway\ Cd\ Bold.ttf);
+}
+
+@media (max-width: 1400px) {
+  .unclesam {
+    display: none !important;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: end;
+  background-color: #005bbc;
+  height: 50vh;
+  width: 100vw;
+}
+
+.unclesam {
+  display: flex;
+  top: 2%;
+  position: fixed;
+  height: 98vh;
+}
+
+.samscontainer {
+  justify-content: center;
+  display: flex;
+  flex-grow: 1;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  background-color: #ffd700;
+  height: 50vh;
+  width: 100vw;
+}
+
+h1 {
+  flex-wrap: wrap;
+  font-family: "Expressway";
+  font-size: 92px;
+  align-self: flex-end;
+  justify-content: end;
+  color: #ffd700;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h2 {
+  flex-wrap: wrap;
+  align-self: flex-start;
+  font-family: "expressway";
+  font-size: 82px;
+  color: #0057b7;
+  border: #0057b7 4px solid;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h2:hover {
+  background-color: #0057b7;
+  color: #ffd700;
+}
+
+h2:active {
+  background-color: #ffd700;
+  color: #0057b7;
+}
